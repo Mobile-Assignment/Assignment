@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- HOME SCREEN -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_screen"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    android:background="@drawable/home_screen"
+    tools:context=".MainActivity"
+    >
+
+    <ImageView
+        android:id="@+id/login_logo"
+        android:layout_width="131dp"
+        android:layout_height="116dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="117dp"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/login_logo"
+        android:clipToOutline="true" />
+
+    <View
+        android:id="@+id/rectangle_i"
+        android:layout_width="match_parent"
+        android:layout_height="94.23dp"
+        android:background="@drawable/rectangle_i" />
+
+    <View
+        android:id="@+id/rectangle1_i"
+        android:layout_width="match_parent"
+        android:layout_height="443dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="173dp"
+        android:background="@drawable/rectangle1_i" />
+
+    <View
+        android:id="@+id/rectangle_o"
+        android:layout_width="match_parent"
+        android:layout_height="404dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="212dp"
+        android:background="@drawable/rectangle_o" />
+
+    <!-- EZ SHIPPING -->
+    <TextView
+        android:id="@+id/ez_shipping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="189dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/ez_shipping"
+        android:textAppearance="@style/ez_shipping"
+        app:fontFamily="@font/montserrat"
+        app:lineHeight="29sp" />
+
+    <!-- Login Button -->
+    <View
+        android:id="@+id/login_butto"
+        android:layout_width="309dp"
+        android:layout_height="56dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="357dp"
+        android:background="@drawable/login_butto" />
+
+    <!-- Button 1 Login -->
+    <View
+        android:id="@+id/button_1_lo"
+        android:layout_width="309dp"
+        android:layout_height="56dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="357dp"
+        android:background="#00000000"
+        />
+
+    <!-- LOGIN -->
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="308dp"
+        android:layout_height="56dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="357dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/login"
+        android:textAppearance="@style/login"
+        app:fontFamily="@font/montserrat"
+        app:lineHeight="20sp" />
+
+    <!-- Button 2 Sign Up -->
+    <View
+        android:id="@+id/button_2_si"
+        android:layout_width="309dp"
+        android:layout_height="56dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="437dp"
+        android:background="#00000000" />
+
+    <!-- SIGN UP -->
+    <TextView
+        android:id="@+id/sign_up"
+        android:layout_width="308dp"
+        android:layout_height="56dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="437dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/sign_up"
+        android:textAppearance="@style/sign_up"
+        app:fontFamily="@font/montserrat"
+        app:lineHeight="20sp" />
+
+    <!-- Sign Up Button -->
+    <View
+        android:id="@+id/sign_butto"
+        android:layout_width="309dp"
+        android:layout_height="56dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="437dp"
+        android:background="@drawable/sign_butto"
+        />
+
+
+</RelativeLayout>
+
+
